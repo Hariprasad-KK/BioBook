@@ -98,7 +98,7 @@ if($years==1)
 
 	<head>
 		<title>Welcome  To Biobook - Sign up, Log in, Post </title>
-		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="home.css">
 	</head>
 
 <body>
@@ -153,7 +153,7 @@ if($years==1)
 		</div>
 		
 <?php
-	include("includes/database.php");
+	include("database.php");
 			$query=mySQL_query("SELECT * from user where user_id='$id' order by user_id DESC") or die(mySQL_error());
 			while($row=mySQL_fetch_array($query)){
 				$id = $row['user_id'];
@@ -199,7 +199,7 @@ if($years==1)
 		
 
 <?php
-	include("includes/database.php");
+	include("database.php");
 			$query=mySQL_query("SELECT * from post LEFT JOIN user on user.user_id = post.user_id order by post_id DESC") or die(mySQL_error());
 			while($row=mySQL_fetch_array($query)){
 				$posted_by = $row['firstname']." ".$row['lastname'];
