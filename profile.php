@@ -3,7 +3,7 @@
 
 	<head>
 		<title>Welcome  To Biobook - Sign up, Log in, Post </title>
-		<link rel="stylesheet" type="text/css" href="css/profile.css">
+		<link rel="stylesheet" type="text/css" href="profile.css">
 	</head>
 
 <body>
@@ -50,7 +50,7 @@
 			<hr />
 			<br />
 			<?php
-			include('includes/database.php');
+			include('database.php');
 
 			$result=mysql_query("SELECT * FROM user where user_id='$id' ");
 			
