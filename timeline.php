@@ -97,7 +97,7 @@ if($years==1)
 
 	<head>
 		<title>Welcome  To Biobook - Sign up, Log in, Post </title>
-		<link rel="stylesheet" type="text/css" href="css/timeline.css">
+		<link rel="stylesheet" type="text/css" href="timeline.css">
 	</head>
 
 <body>
@@ -333,7 +333,7 @@ if($years==1)
 		</form>
 		
 <?php
-	include ('includes/database.php');
+	include ('database.php');
 	
 	if (isset($_POST['post_comment']))
 	{
