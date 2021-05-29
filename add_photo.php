@@ -1,5 +1,5 @@
 <?php
-	include('includes/database.php');
+	include('database.php');
 	include('session.php');
 							
 							if (!isset($_FILES['image']['tmp_name'])) {
