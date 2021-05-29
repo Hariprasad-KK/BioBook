@@ -3,7 +3,7 @@
 
 	<head>
 		<title>Welcome  To Biobook - Sin up, Log in, Chat </title>
-		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="home.css">
 	</head>
 
 <body>
@@ -14,7 +14,7 @@
 <input type="file" name="image">
 <input type="submit" value="save" name="image" />
 <?php
-							include ('includes/database.php');
+							include ('database.php');
 							
 							if (!isset($_FILES['image']['tmp_name'])) {
 							echo "";
