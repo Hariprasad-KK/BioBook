@@ -24,7 +24,7 @@
 
 	<div id="container">
 		<div class="image-display">
-				<img src="image/world.png" class="img-style" />
+				<img src="world.png" class="img-style" />
 		</div>
 	</div>
 
