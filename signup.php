@@ -3,7 +3,7 @@
 
 	<head>
 		<title>Welcome  To Biobook - Sin up, Log in, Chat </title>
-		<link rel="stylesheet" type="text/css" href="css/signup.css">
+		<link rel="stylesheet" type="text/css" href="signup.css">
 	</head>
 
 <body>
