@@ -3,7 +3,7 @@
 
 	<head>
 		<title>Welcome  To Biobook - Sign up, Log in, Post </title>
-		<link rel="stylesheet" type="text/css" href="css/photos.css">
+		<link rel="stylesheet" type="text/css" href="photos.css">
 	</head>
 
 <body>
@@ -42,7 +42,7 @@
 				</div>
 		
 <?php
-	include("includes/database.php");
+	include("database.php");
 			$query=mySQL_query("SELECT * from user where user_id='$id' order by user_id DESC") or die(mySQL_error());
 			while($row=mySQL_fetch_array($query)){
 				$id = $row['user_id'];
@@ -102,7 +102,7 @@
 	
 
 <?php
-	include("includes/database.php");
+	include("database.php");
 			$query=mySQL_query("SELECT * from photos where user_id='$id' ") or die(mySQL_error());
 			while($row=mySQL_fetch_array($query)){
 				$id = $row['photo_id'];
