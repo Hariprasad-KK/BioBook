@@ -1,5 +1,5 @@
 <?php
-require('includes/database.php');
+require('database.php');
 $id =$_REQUEST['user_id'];
 
 $result = mysql_query("SELECT * FROM user WHERE user_id  = '$id' ");
@@ -39,7 +39,7 @@ $number_save=$_POST['number'];
 
 	<head>
 		<title>Welcome  To Biobook - Sign up, Log in, Post </title>
-		<link rel="stylesheet" type="text/css" href="css/edit_profile.css">
+		<link rel="stylesheet" type="text/css" href="edit_profile.css">
 	</head>
 
 <body>
